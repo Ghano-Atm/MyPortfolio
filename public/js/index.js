@@ -62,24 +62,12 @@ document.getElementById("form_contact").onsubmit= function send_mail(e) {
     
     Email.send({
 
-        SecureToken : "36999e9c-0546-4972-9558-881b7d2f473d",
+        SecureToken : "ee4cca06-c6e3-42ae-a882-7f3b46a43ce4",
         To : 'ghanoatm95@gmail.com',
         From : email,
         Subject : subject,
         Body : message
 
-    }).then(
-      message => alert(message)
-    );
-
-    Email.send({
-        Host : "ghanoatm95@gmail.com",
-        Username : "Ghano ",
-        Password : "password",
-        To : 'ghanoatm95@gmail.com',
-        From : email,
-        Subject : subject,
-        Body : message
     }).then(
       message => alert(message)
     );
