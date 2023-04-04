@@ -126,8 +126,5 @@ function send_mail() {
         document.querySelector(".spinner").remove()})
     
     }
- 
-
-    
 
 }
